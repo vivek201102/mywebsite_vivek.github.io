@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+body{
+    background-color: #c9c8ca;
+}
+
+#hobbies {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.h-1{
+    color: rgb(0, 0, 0);
+    font-size:40px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container .card{
+    max-width: 300px;
+    height:100px;
+    position:static;
+    background: rgb(32, 83, 81);
+    margin: 30px 10px;
+    padding:20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in;
+}
+
+.container .card:hover{
+    height: 550px;
+}
+
+.container .card .imgBx{
+    position:static;
+    width:260px;
+    height:260px;
+    top: -60px;
+    left:20px;
+}
+
+.container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+    height:150px;
+    width:400px;
+
+
+}
+
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding:10px 15px;
+    text-align: center;
+    color:#111;
+    opacity: 0;
+
+}
+
+.container .card .content:hover{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -20px;
+}
+
+h2 {
+    font-size:24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content p{
+    font-family: 'Ubuntu', sans-serif;
+}
+

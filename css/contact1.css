@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#c9c8ca;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10%;
+    margin-bottom:10%;
+
+}
+.contain{
+    position: relative;
+    min-height: 750px;
+    min-width: 80%;
+    display: flex;
+    z-index: 1000;
+    background-color:#fff;
+}
+
+.info-text li{
+    list-style: none;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.info-text{
+    width:50%;
+}
+
+.info-form{
+    width:50%;
+}
+
+.info-text li span:nth-child(1) img
+{
+    display: block;
+    align-items: right;
+    max-width: 50px;
+    height:50px;
+    margin: 10%;
+
+}
